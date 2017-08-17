@@ -1,5 +1,6 @@
 // index.js
 function postComment() {
+  console.log("it is working")
   var commenter = document.getElementById("commenterName").value;
   var comment = document.getElementById("commentText").value;
 
